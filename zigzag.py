@@ -12,7 +12,7 @@ try:
 
         if indentIncrease:
             indentValue = indentValue + 1
-            if (indentValue == 40):
+            if (indentValue == 20):
                 indentIncrease = False
         else:
             indentValue = indentValue - 1
